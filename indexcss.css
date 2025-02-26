@@ -1,0 +1,88 @@
+.logo img{
+    height: 80px;
+    width: 80px;
+}
+
+.logo h2{
+    font-weight:bold;
+}
+
+.logo h1{
+    font-weight:bold;
+}
+
+.btn1{
+    width: 202px;
+    height: 53px;
+    font-size: 28px !important;
+    font-weight: 500 !important;
+}
+
+.second{
+    margin-top:100px;
+}
+
+label{
+    font-family:Constantia;
+    font-size: 30px;
+    font-weight: 800;
+    align-content: center;
+    padding-left: 20px;
+    border-radius: 15px;
+}
+
+#user_input{
+    width: 350px;
+    height: 40px;
+    border-radius: 20px;
+    background-color:#c3baba;
+    border:none;
+}
+
+.btn2{
+    background-image: url('search.png');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
+    padding: 0;
+}
+
+/*.btn2 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding-right: 10px;
+    margin: 0px;
+}*/
+
+
+#card{
+    display: none;
+}
+
+.card{
+    height: 500px;
+    width: 400px;
+    transition: 2s;
+    box-shadow: 0px 10px 24px 0px rgba(0, 0, 0, 0.75);
+    text-align: center;
+    padding: 2px 2px;
+    color: black;
+    text-shadow: 1px 1px #bbb;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px 10px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#close{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+}
